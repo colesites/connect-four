@@ -1,0 +1,53 @@
+body {
+    background-image: linear-gradient(black, rgb(32, 2, 2));
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    background-image: linear-gradient(rgb(10, 15, 145), rgb(209, 19, 19));
+    font-size: 70px;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h2 {
+    background-image: linear-gradient(rgb(10, 15, 145), rgb(209, 19, 19));
+    font-size: 30px;
+    -webkit-background-clip: text;
+    color: transparent;   
+}
+
+h3 {
+    background-image: linear-gradient(rgb(10, 15, 145), rgb(209, 19, 19));
+    font-size: 20px;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 120px;
+    border: 1px solid rgb(93, 94, 128);
+    border-top: none;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.player-one {
+    border-radius: 10px;
+    background-color: rgb(57, 22, 145);
+}
+
+.player-two {
+    border-radius: 10px;
+    background-color: rgb(165, 3, 35);
+}
